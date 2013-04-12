@@ -30,7 +30,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		FoundWords fw(dataFile, key.getKeyDubl(), key.getKeySimplif());
 		std::list<string> l1(fw.getListWords()), l2(fw.getListWordsWDublKey());
 
-//		for(std::list<string>::iterator i = l1.begin(); i != l1.end(); i++)   //printing a list of has been found words
+//		for(std::list<string>::iterator i = l1.begin(); i != l1.end(); i++)   //printing the list of found words
 //			cout<<*i<<endl;                                                     //without counting literas dublicates
 		cout<<"============================================================"<<endl;
 		for(std::list<string>::iterator i = l2.begin(); i != l2.end(); i++)     //the same with dublicates
